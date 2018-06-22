@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="759667ba-96c5-4f02-9572-798a14771349" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ca929233-4d97-4c53-9307-1ad4f32d1664" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="e906a9e5-a136-4f92-9653-ed2a1bc82dd7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="15264787-09fc-46b7-a1bb-94c60722f101" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" />
+    <MetadataFile FileName="System.Collections.Generic.xsd" MetadataType="Schema" ID="a12fdbc1-e24c-4774-8326-60f7945e6494" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" />
+    <MetadataFile FileName="Services.xsd" MetadataType="Schema" ID="013d3472-29fb-42f8-b202-2c782193dcab" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/LexerServices/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

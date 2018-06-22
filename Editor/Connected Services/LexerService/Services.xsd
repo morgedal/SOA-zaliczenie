@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Services" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ETokenType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="E_KEYWORD" />
+      <xs:enumeration value="E_ID" />
+      <xs:enumeration value="E_NUMBER" />
+      <xs:enumeration value="E_STRING" />
+      <xs:enumeration value="E_ROUND_BRACKET" />
+      <xs:enumeration value="E_CURLY_BRACKET" />
+      <xs:enumeration value="E_SQUARE_BRACKET" />
+      <xs:enumeration value="E_SEMICOLON" />
+      <xs:enumeration value="E_UNARY_FRONT_OPERATOR" />
+      <xs:enumeration value="E_UNARY_BACK_OPERATOR" />
+      <xs:enumeration value="E_BINARY_OPERATOR" />
+      <xs:enumeration value="E_COMMENT" />
+      <xs:enumeration value="E_ERROR" />
+      <xs:enumeration value="E_EMPTY" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ETokenType" nillable="true" type="tns:ETokenType" />
+</xs:schema>
